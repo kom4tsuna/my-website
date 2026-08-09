@@ -105,6 +105,15 @@ p{
     padding-right: 10px;
 }
 
+.right_box{
+    text-align: right;
+}
+
+.right_box img{
+    width: 60px;
+    height: auto;
+}
+
 footer{
     padding-top: 30px;
 }
