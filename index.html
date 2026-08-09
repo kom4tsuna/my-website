@@ -13,6 +13,8 @@
     <meta property="og:url" content="https://kom4tsuna.github.io/my-website/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
 </head>
 <body>
 <header>
@@ -42,7 +44,16 @@
         <br><br>
         <a href="national.html">#For International Members 🌍</a>
         <br><br>
-        <a href="https://discord.gg/nEUTTWPHfh">#discord鯖はこちらから</a>
+        <button id="discord_button">#discord鯖はこちらから</button>
+        <div id="bg">
+            <div id="box">
+                <p>当OCのdiscrod鯖は当OCに参加してから<strong>5日</strong>経過した時点で参加可能になります。<br>参加しますか？</p>
+                <div id="padding_button">
+                    <button id="decline_button">参加しない</button>
+                    <a href="https://discord.gg/nEUTTWPHfh">参加する</a>
+                </div>
+            </div>
+        </div>
         <br><br>
 
     </section>
@@ -50,5 +61,6 @@
 <footer>
     <p>&copy; 2023 オープンチャット. All rights reserved.</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>

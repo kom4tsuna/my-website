@@ -34,5 +34,11 @@ $(function() {
             scrollTop: 0
         }, 800, 'swing');
     });
+});
+$("#discord_button").click(function(){
+    $("#bg,#box,#padding_button").fadeIn(200);
 
+    $("#decline_button").click(function(){
+        $("#bg,#box,#padding_button").fadeOut(200);
+    });
 });
